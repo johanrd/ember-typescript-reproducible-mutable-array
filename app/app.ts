@@ -4,6 +4,8 @@ import loadInitializers from 'ember-load-initializers';
 import config from 'ember-typescript-reproducible-mutable-array/config/environment';
 import { tracked } from '@glimmer/tracking';
 
+import 'ember-source/types';
+import 'ember-source/types/preview';
 
 export default class App extends Application {
   modulePrefix = config.modulePrefix;
